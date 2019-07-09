@@ -13,10 +13,11 @@ A boilerplate to speed up your development first hit 🎉
 ## Structure
 
 ```bash
-   ├── .storybook # Storybook configuration
-   ├── components # Project's components
-   ├── utils # themes, and other project's related utils
-   ├── pages # Project pages
+   ...
+   ├── .storybook                   # Storybook configuration
+   ├── components                   # Project's components
+   ├── utils                        # themes, and other project's related utils
+   ├── pages                        # Project pages (routes)
    ├── .babelrc
    ├── .editorconfig
    ├── .gitignore
@@ -26,6 +27,7 @@ A boilerplate to speed up your development first hit 🎉
    ├── README.md
    ├── tsconfig.json
    └── tslint.json
+   ...
 ```
 
 ## Installation

@@ -2,7 +2,7 @@ import { Component } from 'react';
 import styled from '@emotion/styled';
 
 const Title = styled('h1')`
-  color: red;
+  color: ${props => props.theme.colors.primary};
 `;
 
 class Home extends Component {

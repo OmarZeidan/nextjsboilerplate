@@ -1,6 +1,12 @@
 import { NextFC } from 'next';
+import styled from '@emotion/styled';
+
+const ButtonStyled = styled('button')`
+  color: ${props => props.theme.colors.primary};
+`;
+
 const Button: NextFC = () => {
-  return <button> Click me </button>;
+  return <ButtonStyled> Click me </ButtonStyled>;
 };
 
 export default Button;

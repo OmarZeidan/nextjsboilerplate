@@ -10,6 +10,24 @@ A boilerplate to speed up your development first hit 🎉
 4. Emotion (Styled component)
 5. Testing with Jest [ to do ]
 
+## Structure
+
+```bash
+   ├── .storybook # Storybook configuration
+   ├── components # Project's components
+   ├── utils # themes, and other project's related utils
+   ├── pages # Project pages
+   ├── .babelrc
+   ├── .editorconfig
+   ├── .gitignore
+   ├── next.config.js
+   ├── package.json
+   ├── prettier.config.js
+   ├── README.md
+   ├── tsconfig.json
+   └── tslint.json
+```
+
 ## Installation
 
 ```bash
@@ -37,3 +55,4 @@ Please make sure to update tests as appropriate.
 
 - [ ] Setup Jest for testing
 - [ ] Add more components with Storybook and Jest
+- [ ] Add Emotion theme as a context API

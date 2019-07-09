@@ -57,4 +57,5 @@ Please make sure to update tests as appropriate.
 
 - [ ] Setup Jest for testing
 - [ ] Add more components with Storybook and Jest
-- [ ] Add Emotion theme as a context API
+- [x] Add Emotion theme as a context API
+- [ ] Update & publish

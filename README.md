@@ -55,7 +55,7 @@ Please make sure to update tests as appropriate.
 
 ## TODO
 
-- [ ] Setup Jest for testing
-- [ ] Add more components with Storybook and Jest
+- [x] Install Jest for testing
 - [x] Add Emotion theme as a context API
-- [ ] Update & publish
+- [ ] Add simple component for Storybook.
+- [ ] Snapshot test for a simple component
